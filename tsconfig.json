@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Define a versão do JavaScript gerado no output
+    "target": "ES2024",
+
+    // Sistema de módulos compatível com Node.js moderno (ESM)
+    "module": "NodeNext",
+
+    // Resolução de módulos alinhada com o NodeNext
+    "moduleResolution": "NodeNext",
+
+    // Pasta onde o TypeScript vai compilar os arquivos
+    "outDir": "./dist",
+
+    // Pasta raiz dos arquivos TypeScript
+    "rootDir": "./src",
+
+    // Ativa todas as verificações de tipo rigorosas
+    "strict": true,
+
+    // Permite importar módulos CommonJS como default import
+    "esModuleInterop": true,
+
+    // Evita bugs em sistemas de arquivo case-insensitive
+    "forceConsistentCasingInFileNames": true,
+
+    // Ignora erros de tipo em arquivos de bibliotecas externas
+    "skipLibCheck": true,
+
+    // Permite importar arquivos .json como módulos
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"], // Onde compilar
+  "exclude": ["node_modules", "dist"] // Onde ignorar 
+}

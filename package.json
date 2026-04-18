@@ -2,9 +2,9 @@
   "name": "case-tecnico-webscrapper",
   "version": "1.0.0",
   "description": "Criação de um Web Scrapper para o site da netshoes.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "tsx watch src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Kauabrandaorocha/case-tecnico-webScrapper/issues"
   },
   "homepage": "https://github.com/Kauabrandaorocha/case-tecnico-webScrapper#readme",
   "dependencies": {
-    "puppeteer": "^24.41.0"
+    "puppeteer": "^24.41.0",
+    "tsx": "^4.21.0"
   }
 }
