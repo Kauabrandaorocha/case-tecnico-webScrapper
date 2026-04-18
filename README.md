@@ -1,0 +1,1 @@
+### Case Técnico - Criação de um Web Scrapper
