@@ -53,7 +53,7 @@ src/
 
 ## Output
 
-- Irá ser gerado um arquivo .json com o produto específico escolhido contendo título, preço (preço atual(com ou sem desconto), preço parcelado e preço bruto sem desconto), imagem e descrição.
+- Irá ser gerado um arquivo .json com o produto específico escolhido contendo título, preço (preço atual (com ou sem desconto), preço parcelado e preço bruto sem desconto), imagem e descrição.
 
 - O output tambem sera mostrado no terminal, com um log estruturado contendo título, preço (preço atual(com ou sem desconto), preço parcelado e preço bruto sem desconto), imagem e descrição.
 
