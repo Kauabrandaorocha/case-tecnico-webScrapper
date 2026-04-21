@@ -2,6 +2,14 @@
 
 Este projeto consiste em um web scrapper simples focado na extração de dados estruturados de um produto específico do site de e-commerce netshoes. Foi utilizado princípios de Programação Orientada a Objetos (POO) e SOLID para garantir escalabilidade. 
 
+## Como inicializar
+
+- Acesse o terminal com `ctrl + '` no VSCODE
+- Digite `npm install` para instalação de todas as dependências 
+- Entre na pasta src
+- Digite `node index.ts` se estiver dentro da pasta src ou se preferir pode executar pelos scripts do package.json(obs: estando na pasta principal do projeto) usando `npm run dev`
+- A resposta do site pode demorar de 10 a 15 segundos
+
 ## Pastas e Arquivos do Web Scrapper 
 
 ```text
@@ -42,15 +50,6 @@ src/
 - TypeScript: para melhor tipagem e tratamento de erros
 - Node: Ambiente de execução
 - FS (File System): Manipulação e armazenamento de dados em arquivos locais.
-
-## Como inicializar
-
-- Acesse o terminal com `ctrl + '`
-- Digite `npm install` para instalação de todas as dependências 
-- Entre na pasta src
-- Digite `node index.ts` se estiver dentro da pasta src ou se preferir pode executar pelos scripts do package.json(obs: estando na pasta principal do projeto) usando `npm run dev`
-- A resposta do site pode demorar de 10 a 15 segundos
-
 
 ## Output
 
