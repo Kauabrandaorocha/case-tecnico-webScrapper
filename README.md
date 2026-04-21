@@ -4,19 +4,18 @@ Este projeto consiste em um web scrapper simples focado na extração de dados e
 
 ## Pastas e Arquivos do Web Scrapper 
 
-
+```text
 src/
-├── arquivo-gerado/         
-├── classes/                 
-│   ├── Scraper.ts           
-│   └── ProductExtractor.ts  
-├── interfaces/              
-│   ├── interfacePrice.ts    
+├── arquivo-gerado/           
+├── Classes/    
+│   ├── Scraper.ts             
+│   └── getTagsHtml.ts          
+├── interfaces/                 
+│   ├── interfacePrice.ts      
 │   └── interfaceSelectorConfig.ts 
-├── services/                
-│   └── CreateFile.ts        
-└── index.ts                 
-
+├── CreateFile.ts               
+└── index.ts                                    
+```
 
 - Scraper.ts: Cuida da parte de inicialização do puppeteer e conexão com o browser
 
