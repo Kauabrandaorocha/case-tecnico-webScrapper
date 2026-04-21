@@ -58,3 +58,7 @@ src
 - Irá ser gerado um arquivo .json com o produto específico escolhido contendo título, preço (preço atual(com ou sem desconto), preço parcelado e preço bruto sem desconto), imagem e descrição.
 
 - O output tambem sera mostrado no terminal, com um log estruturado contendo título, preço (preço atual(com ou sem desconto), preço parcelado e preço bruto sem desconto), imagem e descrição.
+
+## Imagem do Output
+
+<img width="1564" height="421" alt="image" src="https://github.com/user-attachments/assets/0cc338a2-81a5-452b-bd26-b1096db28666" />
