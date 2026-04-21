@@ -6,6 +6,12 @@
     // Sistema de módulos compatível com Node.js moderno (ESM)
     "module": "NodeNext",
 
+    // Não gera arquivos .js, apenas verifica os tipos
+    "noEmit": true,
+
+    // Garante que as importações de arquivos .ts sejam permitidas
+    "allowImportingTsExtensions": true,
+
     // Resolução de módulos alinhada com o NodeNext
     "moduleResolution": "NodeNext",
 
@@ -28,7 +34,9 @@
     "skipLibCheck": true,
 
     // Permite importar arquivos .json como módulos
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+
+    "lib": ["DOM", "DOM.Iterable", "ES2024"] // Inclui as bibliotecas necessárias para o ambiente de execução
   },
   "include": ["src/**/*"], // Onde compilar
   "exclude": ["node_modules", "dist"] // Onde ignorar 
