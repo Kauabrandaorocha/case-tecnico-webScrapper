@@ -4,7 +4,7 @@ Este projeto consiste em um web scrapper simples focado na extração de dados e
 
 ## Pastas e Arquivos do Web Scrapper 
 
-`
+
 src/
 ├── arquivo-gerado/         
 ├── classes/                 
@@ -16,7 +16,7 @@ src/
 ├── services/                
 │   └── CreateFile.ts        
 └── index.ts                 
-`
+
 
 - Scraper.ts: Cuida da parte de inicialização do puppeteer e conexão com o browser
 
